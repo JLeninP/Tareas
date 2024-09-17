@@ -7,6 +7,7 @@ date: "17-09-24"
 
 # Método Iterativo Gauss-Siedel
 
+## Implementación en Python
 ```{python, collapse = TRUE, echo = FALSE}
 
 import sys
@@ -66,11 +67,15 @@ sys.stdout.write(f'\nXi = {SOLUCION[0]}')
 sys.stdout.write(f'\nIteraciones = {SOLUCION[1]}')
 ```
 
-## Salida en pantalla
+### Salida en pantalla
 Con Tolerancia de 0.001
 ```{python, collapse = TRUE, echo = FALSE}
 Xi = [3.0109619047619045, -2.451142857142857, 7.140000000000001]
 Iteraciones = 4
 ```
+
+## Implementación en Excel
+![Gauss-Diesel](img.png)
+
 ## Referencias
 Richard L. Burden (2016). ANÁLISIS NUMÉRICO (10ma ed.). (p. 339).
